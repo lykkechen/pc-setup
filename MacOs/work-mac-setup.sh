@@ -12,6 +12,7 @@ brew cask install visual-studio-code \
 nvm install node \
 npm install -g @vue/cli \
 npm i -g now \
+brew install yarn
 
 # Entertainment
 brew cask install \
