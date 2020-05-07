@@ -35,3 +35,8 @@ spotify
 
 - `curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore`
 - `git config --global core.excludesfile ~/.gitignore`
+
+## Vs Settings
+
+- Explorer: Compact Folders
+- Editor: Minimap
