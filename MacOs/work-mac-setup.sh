@@ -13,7 +13,9 @@ nvm install node \
 npm install -g @vue/cli \
 npm i -g now \
 brew install yarn
+brew cask install firefox
 
 # Entertainment
 brew cask install \
-spotify
+spotify \
+vlc
