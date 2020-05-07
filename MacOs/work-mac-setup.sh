@@ -13,7 +13,8 @@ nvm install node \
 npm install -g @vue/cli \
 npm i -g now \
 brew install yarn
-brew cask install firefox
+brew cask install firefox \
+brew install circleci \
 
 # Entertainment
 brew cask install \
