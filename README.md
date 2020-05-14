@@ -31,6 +31,8 @@ now
 
 spotify
 
+---
+
 ## Add global gitignore
 
 - `curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore`
@@ -40,3 +42,8 @@ spotify
 
 - Explorer: Compact Folders
 - Editor: Minimap
+
+## Do
+
+- install LTS node version
+- install <https://www.logitech.com/en-us/product/options>
