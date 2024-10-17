@@ -13,6 +13,7 @@ Things to save before erasing everything:
 
 - Trackpad scroll direction: Not Natural
 - Mouse scroll direction: Not Natural
+- `brew install --cask logi-options+`
 
 ### Utility
 
