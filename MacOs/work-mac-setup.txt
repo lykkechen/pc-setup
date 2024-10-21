@@ -1,0 +1,31 @@
+# enable firewall
+# enable disk encryption with recovery code
+# install Xcode from App Store
+
+# before
+- 1Password secret key in Emergency Kit
+- env
+- ssh
+
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install --cask visual-studio-code google-chrome spotify telegram rectangle
+brew install flutter android-studio ansible packer docker dotnet npm terraform go mkcert podman ykman yubikey-agent cocoapods fastlane
+brew install --cask 1password dotnet-sdk postman zerotier-one
+
+brew install git
+curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
+git config --global user.name "Le Chen"
+git config --global user.email "le.chen@revas.io"
+
+## Manual installation
+
+### GCP
+https://cloud.google.com/sdk/docs/install
+gcloud auth application-default login
+
+### Docker
+https://docs.docker.com/desktop/mac/apple-silicon/
