@@ -6,14 +6,14 @@ xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install --cask google-chrome visual-studio-code iterm2 lastpass spotify rectangle
+brew install --cask google-chrome visual-studio-code iterm2 lastpass spotify rectangle logi-options+
 
 curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
 
-git config --global core.excludesfile ~/.gitignore
 brew install git
+git config --global core.excludesfile ~/.gitignore
 git config --global user.name "Le Chen"
-git config --global user.email "le.chen@revas.io"
+git config --global user.email "luisachen95@gmail.com"
 
 brew install getantibody/tap/antibody
 
