@@ -14,6 +14,7 @@ xcode-select --install
 brew install --cask visual-studio-code google-chrome spotify telegram rectangle
 brew install flutter android-studio ansible packer docker dotnet npm terraform go mkcert podman ykman yubikey-agent cocoapods fastlane
 brew install --cask 1password dotnet-sdk postman zerotier-one
+brew install --cask logi-options+
 
 brew install git
 curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
